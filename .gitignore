@@ -43,13 +43,3 @@ config.stencil.json
 Gruntfile.js
 package-lock.json
 secrets.stencil.json
-
-#temp
-/templates/components/products/add-to-cart.html
-/assets/js/theme/category.js
-/templates/pages/cart.html
-/templates/pages/category.html
-/templates/components/products/multi-cart.html
-/templates/components/category/product-listing.html
-/assets/scss/components/citadel/cards/_cards.scss
-/templates/components/products/card.html
