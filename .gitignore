@@ -1,0 +1,55 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+/.pnp
+.pnp.js
+/assets/dist
+/parsed
+/meta
+
+# testing
+coverage
+
+static
+
+# next.js
+.next
+out
+
+#dont embed data in repo
+*.ndjson
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env.local
+.env.development.local
+.env.development
+.env.test.local
+.env.production.local
+
+config.stencil.json
+Gruntfile.js
+package-lock.json
+secrets.stencil.json
+
+#temp
+/templates/components/products/add-to-cart.html
+/assets/js/theme/category.js
+/templates/pages/cart.html
+/templates/pages/category.html
+/templates/components/products/multi-cart.html
+/templates/components/category/product-listing.html
+/assets/scss/components/citadel/cards/_cards.scss
+/templates/components/products/card.html
